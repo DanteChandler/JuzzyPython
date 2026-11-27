@@ -24,7 +24,7 @@ from juzzyPython.type1.system.T1_Antecedent import T1_Antecedent
 
 
 class Case1TSKFuzzyLogicSystem:
-    TSK_CONSTANTS = {"Low": 10.0, "Medium": 50.0, "High": 90.0}
+    TSK_CONSTANTS = {"Low": 10.0, "Medium": 50.0, "High": 100.0}
 
     def __init__(self, mf_style="piecewise", operator_family="min_max", rule_mode="compact_21"):
         """
